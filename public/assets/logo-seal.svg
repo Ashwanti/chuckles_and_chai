@@ -1,0 +1,52 @@
+<!--
+  CHUCKLES & CHAI - circular seal
+  ===========================================================================
+  Redrawn from the café's own seal: wine ring, "CHUCKLES & CHAI" arced over
+  the top, "AWAKEN WITH AROMA" arced under the bottom, EST / 2025 on the
+  flanks and a steaming glass in the middle.
+
+  If the café has the original artwork, replace this file and assets/logo.svg
+  with it - this is a faithful rebuild for the web, not the master.
+
+  The ring type is live text so it stays crisp at any size. Outline it before
+  sending to a printer, or embed Fraunces and Inter.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240"
+     role="img" aria-labelledby="seal-title">
+  <title id="seal-title">Chuckles &amp; Chai, Awaken With Aroma, established 2025</title>
+
+  <defs>
+    <path id="ring-top" d="M 36 106 A 84 84 0 0 1 204 106" fill="none"/>
+    <path id="ring-bottom" d="M 26 142 A 94 94 0 0 0 214 142" fill="none"/>
+  </defs>
+
+  <circle cx="120" cy="120" r="118" fill="#6E1F2E"/>
+  <circle cx="120" cy="120" r="110" fill="none" stroke="#FBF8F2" stroke-opacity=".38" stroke-width="1.2"/>
+  <circle cx="120" cy="120" r="104" fill="none" stroke="#FBF8F2" stroke-opacity=".88" stroke-width="2.4"/>
+
+  <text fill="#FBF8F2" font-family="Fraunces, 'Iowan Old Style', Georgia, serif"
+        font-size="23" font-weight="600" letter-spacing="2.8">
+    <textPath href="#ring-top" startOffset="50%" text-anchor="middle">CHUCKLES &amp; CHAI</textPath>
+  </text>
+
+  <text fill="#E2C39D" font-family="Inter, 'Segoe UI', Arial, sans-serif"
+        font-size="11.5" font-weight="600" letter-spacing="4">
+    <textPath href="#ring-bottom" startOffset="50%" text-anchor="middle">AWAKEN WITH AROMA</textPath>
+  </text>
+
+  <text x="30" y="125" text-anchor="middle" fill="#E2C39D"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1.6">EST</text>
+  <text x="210" y="125" text-anchor="middle" fill="#E2C39D"
+        font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1.2">2025</text>
+
+  <!-- Steam -->
+  <g fill="none" stroke="#FBF8F2" stroke-width="4" stroke-linecap="round">
+    <path d="M102 86c-4 5.2 4 8.6 0 13.8"/>
+    <path d="M120 81c-4 5.2 4 8.6 0 13.8"/>
+    <path d="M138 86c-4 5.2 4 8.6 0 13.8"/>
+  </g>
+
+  <!-- Cutting glass -->
+  <path d="M91 110h58l-6.8 40a10.8 10.8 0 0 1-10.7 9.2h-23a10.8 10.8 0 0 1-10.7-9.2Z" fill="#FBF8F2"/>
+  <rect x="88" y="167" width="64" height="6" rx="3" fill="#FBF8F2" fill-opacity=".85"/>
+</svg>
